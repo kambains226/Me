@@ -1,11 +1,12 @@
 
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// Tailwind v4 works automatically through PostCSS.
-// You don’t need to manually add it here.
-
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
 });
 
