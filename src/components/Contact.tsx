@@ -34,7 +34,7 @@ export default function Contact() {
       icon: FileText,
       label: 'Resume/CV',
       value: 'Download CV',
-      href: '../../cv/Kameron_Bains CV.pdf',
+      href: '../../cv/Kameron_Bains_CV.pdf',
       color: 'text-emerald-400',
       bgColor: 'bg-emerald-500/10',
       borderColor: 'border-emerald-500/50',
