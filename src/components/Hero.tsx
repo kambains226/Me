@@ -82,10 +82,10 @@ export default function Hero() {
         {/* Social Links */}
         <div className="flex gap-6 justify-center">
           {[
-            { icon: Github, href: 'https://github.com/kambainss226', label: 'GitHub' },
+            { icon: Github, href: 'https://github.com/kambains226', label: 'GitHub' },
             { icon: Linkedin, href: 'https://linkedin.com/in/kameron-bains-b752b7226', label: 'LinkedIn' },
-            { icon: FileText, href: '../../cv/Kameron_Bains CV.pdf', label: 'CV' },
-            { icon: Mail, href: 'mailto:kambainss226', label: 'Email' },
+            { icon: FileText, href: 'cv/Kameron_Bains_CV.pdf', label: 'CV' },
+            { icon: Mail, href: 'mailto:kam2711@outlook.com', label: 'Email' },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
