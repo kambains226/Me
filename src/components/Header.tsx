@@ -1,6 +1,6 @@
 export default function Header() {
   const links = [
-    { name: "CV", href: "../../cv/Kameron_Bains_CV.pdf" },
+    { name: "CV", href: "/cv/Kameron_Bains_CV.pdf" },
     { name: "GitHub", href: "https://github.com/yourusername" },
     { name: "LinkedIn", href: "https://linkedin.com/in/yourusername" },
   ];
@@ -23,4 +23,3 @@ export default function Header() {
     </header>
   );
 }
-
